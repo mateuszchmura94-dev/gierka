@@ -60,7 +60,7 @@ function checkAnswer(currentLevel) {
     setTimeout(() => {
       $("body").removeClass("game-over");
     }, 200);
-    $("h1").text("Game Over, Press Any Key to Restart");
+    $("h1").text("Przegrana, Wcisnij Przycisk by Zaczac od Nowa!");
     startOver();
   }
 }
